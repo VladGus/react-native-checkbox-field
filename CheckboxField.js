@@ -77,7 +77,7 @@ export default class CheckboxField extends Component {
             {children}
           </Checkbox>
           {
-            labelSide === 'right' ? <Text style={[labelStyle, { textAlign: 'right' }]}>{label}</Text> : null
+            labelSide === 'right' ? <Text style={labelStyle}>{label}</Text> : null
           }
         </View>
       </TouchableOpacity>
